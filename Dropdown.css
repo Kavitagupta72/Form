@@ -1,0 +1,44 @@
+img{
+    /* margin-top: 20px; */
+    /* position: relative; */
+    /* position: sticky; */
+    /* top: 0px; */
+     /* left: 0px; */
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    background-color:rgb(207, 7, 7);
+}
+#cont{
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;   
+}
+a:hover{
+background-color:aqua;
+color: black;
+}
+a{
+display: block;
+text-decoration: none;
+color:black;
+
+padding: 20px;
+}
+#menu
+{
+    list-style-type: none;
+    padding: 0;
+    position: absolute;
+    display: none;
+    /* top: 20px; */
+}
+#drop:hover #menu{
+  display: block;
+}
